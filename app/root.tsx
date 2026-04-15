@@ -25,7 +25,7 @@ export const links: Route.LinksFunction = () => [
 
 export function Layout({ children }: { children: React.ReactNode }) {
 	return (
-		<html lang="pt-BR">
+		<html className="" lang="pt-BR">
 			<head>
 				<meta charSet="utf-8" />
 				<meta
@@ -35,7 +35,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<Meta />
 				<Links />
 			</head>
-			<body className="h-svh overflow-hidden">
+			<body suppressHydrationWarning className="h-svh ">
 				{children}
 				<ScrollRestoration />
 				<Scripts />

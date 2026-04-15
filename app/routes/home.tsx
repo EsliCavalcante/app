@@ -1,4 +1,6 @@
+import { Button } from "~/components/ui/button";
 import type { Route } from "./+types/home";
+import { Link } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
 	return [
@@ -11,5 +13,9 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-	return <p>casa</p>;
+	return (
+		<Link to={"/document-preview"}>
+			<Button size="lg">preview</Button>
+		</Link>
+	);
 }
