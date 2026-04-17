@@ -1,0 +1,1 @@
+var e=`documento.pdf`,t=`.pdf`,n=`reeferbras-logo.png`;export{t as n,n as r,e as t};

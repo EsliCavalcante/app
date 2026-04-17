@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-CuG6yjk_.js";import{D as t,s as n}from"./chunk-QFMPRPBF-Cyv6TWDr.js";var r=e(),i=t(function(){return(0,r.jsx)(`main`,{className:`h-full w-full bg-gray-50 `,children:(0,r.jsx)(n,{})})});export{i as default};
