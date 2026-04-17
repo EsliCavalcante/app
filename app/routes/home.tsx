@@ -14,8 +14,13 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
 	return (
-		<Link to={"/document-preview"}>
-			<Button size="lg">preview</Button>
-		</Link>
+		<div>
+			<Link to={"/import-file"}>
+				<Button size="lg">preview</Button>
+			</Link>
+			<Link to={"/document-preview"}>
+				<Button size="lg">preview</Button>
+			</Link>
+		</div>
 	);
 }

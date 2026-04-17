@@ -26,3 +26,12 @@ export type TemperatureLogSheetPdfProps = {
 	pages: PreviewPage[];
 	logoSrc: string;
 };
+
+export type Spreadsheets = Record<string, number>;
+
+export type HeaderSpreadsheet = {
+	worksheet: string;
+	container: string;
+	temperature: string;
+	position?: string;
+};
